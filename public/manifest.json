@@ -1,6 +1,6 @@
 {
   
-    "name": "My Chrome Ext",
+    "name": "Summarize",
     "description": "My First Chrome Extension",
     "version": "1.0.0",
     "manifest_version": 3,
@@ -12,5 +12,9 @@
     "16": "logo192.png",
     "48": "logo192.png",
     "128": "logo192.png"
-  }
+  },
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ]
 }
